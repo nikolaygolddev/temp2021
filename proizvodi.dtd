@@ -1,0 +1,11 @@
+<!ELEMENT prodavnica (proizvod+)>
+<!ELEMENT proizvod (kategorija, cena, tekst, oznaka+, akcija+)>
+<!ELEMENT kategorija EMPTY>
+<!ELEMENT cena (#PCDATA)>
+<!ELEMENT tekst (#PCDATA)>
+<!ELEMENT oznaka (#PCDATA)>
+<!ELEMENT akcija EMPTY>
+<!ATTLIST kategorija vrsta (laptop|tastatura|stolica|sto) #REQUIRED>
+<!ATTLIST cena valuta CDATA #FIXED "RSD">
+<!ATTLIST akcija cena CDATA #IMPLIED>
+<!ATTLIST akcija datumIsteka CDATA #IMPLIED>
