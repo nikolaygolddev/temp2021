@@ -1,0 +1,19 @@
+[
+  {
+    "name": "SAMSUNG S21",
+    "category": "smartphone",
+    "price": "149999",
+    "tags": [
+      "phone",
+      "smartphone",
+      "gaming",
+      "",
+      ""
+    ],
+    "discounts": {
+      "price": "123123",
+      "date": "2021-05-20"
+    },
+    "id": 4
+  }
+]

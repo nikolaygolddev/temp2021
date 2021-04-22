@@ -1,0 +1,46 @@
+[
+  {
+    "price": "294444",
+    "category": "laptop",
+    "name": "Nikolasio",
+    "tags": [
+      "gaming",
+      "laptop",
+      "razer"
+    ],
+    "discounts": {
+      "cena": "120000",
+      "datum": "2021-20-05"
+    },
+    "id": 2
+  },
+  {
+    "price": "149444",
+    "category": "laptop",
+    "name": "ASUS ZEPYRUS 9540",
+    "tags": [
+      "gaming",
+      "laptop",
+      "razer"
+    ],
+    "discounts": {
+      "cena": "120000",
+      "datum": "2021-20-05"
+    },
+    "id": 3
+  },
+  {
+    "price": "12000",
+    "category": "sto",
+    "name": "YSK STO",
+    "tags": [
+      "sto",
+      "YSK"
+    ],
+    "discounts": {
+      "cena": "11000",
+      "datum": "2021-20-05"
+    },
+    "id": 4
+  }
+]
