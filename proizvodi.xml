@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE prodavnica SYSTEM "proizvodi.dtd">
+<prodavnica>
+    <proizvod>
+        <kategorija vrsta="laptop"></kategorija>
+        <cena valuta="RSD">207999</cena>
+        <tekst>OMEN 15-en0002nm - 1A8W4EA</tekst>
+        <oznaka>OMEN</oznaka>
+        <oznaka>laptop</oznaka>
+        <oznaka>gaming</oznaka>
+        <akcija cena="180000" datumIsteka="2021-05-01"></akcija>
+    </proizvod>
+    <proizvod>
+        <kategorija vrsta="tastatura"></kategorija>
+        <cena valuta="RSD">16800</cena>
+        <tekst>Razer Huntsman Mini Mercury Edition 60% keybaord</tekst>
+        <oznaka>Razer</oznaka>
+        <oznaka>tastatura</oznaka>
+        <oznaka>gaming</oznaka>
+        <akcija cena="14690" datumIsteka="2021-07-01"></akcija>
+    </proizvod>
+    <proizvod>
+        <kategorija vrsta="stolica"></kategorija>
+        <cena valuta="RSD">44800</cena>
+        <tekst>Gejmerska stolica Spawn Special Edition Gold</tekst>
+        <oznaka>SPAWN</oznaka>
+        <oznaka>stolica</oznaka>
+        <oznaka>gaming</oznaka>
+        <akcija cena="35690" datumIsteka="2021-05-01"></akcija>
+    </proizvod>
+    <proizvod>
+        <kategorija vrsta="sto"></kategorija>
+        <cena valuta="RSD">21200</cena>
+        <tekst>Gejmerski sto LANGHOLM sa LED crna</tekst>
+        <oznaka>LANGHOLM</oznaka>
+        <oznaka>sto</oznaka>
+        <oznaka>gaming</oznaka>
+        <akcija cena="19000" datumIsteka="2021-06-01"></akcija>
+    </proizvod>
+</prodavnica>
