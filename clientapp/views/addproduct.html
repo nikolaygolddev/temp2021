@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC COMERC - Lakša kupovina kod nas!</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li ><a href="/products">KATALOG</a></li>
+            <li><a href="/addproduct">DODAJ PROIZVOD</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="article">
+            <div class="box">
+        <h3>DODAJ NOVI PROIZVOD ></h3>
+        <form action="/saveproduct" method="post">
+            <input type="text" placeholder="name" name="name">
+            <br>
+            <input type="text" placeholder="category" name="category">
+            <br>
+            <input type="text" placeholder="price" name="price">
+            <br>
+            <input type="text" placeholder="tag1" name="tag1">
+            <br>
+            <input type="text" placeholder="tag2" name="tag2">
+            <br>
+            <input type="text" placeholder="tag3" name="tag3">
+            <br>
+            <input type="text" placeholder="tag4" name="tag4">
+            <br>
+            <input type="text" placeholder="tag5" name="tag5">
+            <br>
+            <input type="text" placeholder="Price on discount" name="priceDisc">
+            <br>
+            <input type="text" placeholder="Date till discount is on" name="dateDisc">
+            <br>
+            <button type="submit">ADD PRODUCT</button>
+        </form>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

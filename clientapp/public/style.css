@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+        body 
+        {
+            font-family: "Montserrat";
+            margin: 0;
+        }
+        .container 
+        {
+            width: 600px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+            box-sizing: border-box;
+            padding: 25px;
+        }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+
+        li {
+            display: inline;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        li a 
+        {
+            color: white;
+            text-decoration: none;
+        }
+
+        .article
+        {
+            box-sizing: border-box;
+            width: 100%;
+            float: left;
+            padding: 0px;
+            box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.25);
+            margin-bottom: 25px;
+            border-radius: 4px;
+        }
+
+        .box 
+        {
+            box-sizing: border-box;
+            padding: 20px 40px;
+        }
+
+        h2
+        {
+            margin: 5px 0px;
+        }
+
+        .price 
+        {
+            color: rgb(184, 174, 174);
+            font-size: 20px;
+            padding: 0px;
+            margin: 5px 0px;
+            text-align: right;
+        }
+
+        .discount
+        {
+            color: red;
+            font-size: 25px;
+            padding: 0px;
+            margin: 0px;
+            text-align: right;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .button 
+        {
+            width: 50%;
+            background: black;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        .tags
+        {
+            margin: 5px 0px;
+            text-align: right;
+        }
+
+        .category
+        {
+            margin: 0px;
+            text-align: left;
+        }
+
+        #delete:hover
+        {
+            background: red;
+            color: white;
+            transition: 0.3s;
+        }
+
+        #edit:hover 
+        {
+            background: chartreuse;
+            color: white;
+            transition: 0.3s;
+        }
+
+        header 
+        {
+            background: black;
+            color: white;
+            padding: 20px;
+        }
+        input 
+        {
+            border: 0px solid;
+            border-radius: 0px;
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0px;
+            font-family: "Montserrat";
+            font-size: 14px;
+            box-sizing: border-box;
+            border-bottom: 2px solid  rgb(194, 194, 194);
+        }
+
+        input:focus 
+        {
+            border-bottom: 2px solid  black;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        button 
+        {
+            margin-top: 25px;
+            font-family: "Montserrat";
+            font-size: 14px;
+            width: 100%;
+            background: black;
+            border-radius: 8px;
+            padding: 15px;
+            color: white;
+            border: 0px;
+            border: 2px solid black;
+        }
+
+        button:hover 
+        {
+            color: white;
+            background: chartreuse;
+            border: 2px solid chartreuse;
+            box-shadow: 0px 2px 8px 1px rgba(0,0,0,0.25);
+            transition: 0.3s;
+        }
+        h3 
+        {
+            font-size: 24px;
+        }
+        .uncheck 
+        {
+            box-sizing: border-box;
+            width: 20px;
+            border-radius: 4px;
+            border: 2px solid black;
+            height: 20px;
+            background: white;
+            float: left;
+        }
+
+        .categoryText
+        {
+            float: left;
+            padding-left: 10px;
+            padding-top: 1px;
+            box-sizing: border-box;
+        }
+
+        .check 
+        {
+            box-sizing: border-box;
+            width: 20px;
+            border-radius: 4px;
+            border: 2px solid black;
+            height: 20px;
+            background: white;
+            float: left;
+        }
+        .categoryPlaceholder 
+        {
+            box-sizing: border-box;
+            padding: 5px 0px;
+            float: left;
+        }
+
+        .row:hover > .check
+        {
+            background: black;
+            transition: 0.3s;
+        }
+
+        .linkCat
+        {
+            color: black;
+        }
+
+        #container 
+        {
+            width: 600px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 25px;
+        }
+
+
+        
