@@ -1,0 +1,51 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="prodavnica" type="prodavnicaType"/>
+  <xs:complexType name="kategorijaType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="vrsta" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:simpleType name="minCena">
+  <xs:restriction base="xs:float">
+    <xs:minInclusive value="0"/>
+  </xs:restriction>
+</xs:simpleType>
+  <xs:complexType name="cenaType">
+    <xs:simpleContent>
+      <xs:extension base="minCena">
+        <xs:attribute type="xs:string" name="valuta" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="akcijaType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:int" name="cena" use="optional"/>
+        <xs:attribute type="xs:date" name="datumIsteka" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="proizvodType">
+    <xs:sequence>
+      <xs:element type="kategorijaType" name="kategorija"/>
+      <xs:element type="cenaType" name="cena"/>
+      <xs:element name="tekst">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:minLength value="10"/>
+            <xs:maxLength value="180"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="oznaka" maxOccurs="5" minOccurs="0"/>
+      <xs:element type="akcijaType" name="akcija"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="prodavnicaType">
+    <xs:sequence>
+      <xs:element type="proizvodType" name="proizvod" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
